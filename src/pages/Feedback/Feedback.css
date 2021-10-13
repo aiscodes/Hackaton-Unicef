@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+.feedback_container {
+  width: 60%;
+  height: 50vh;
+  margin-left: 20%;
+  background-color: #00758e;
+  margin-top: 4%;
+  border-radius: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.first_feedback {
+  width: 80%;
+  padding-top: 1%;
+  color: white;
+  margin-left: 10%;
+}
+.first_feedback h5,
+.first_feedback p {
+    font-size: 18px;
+  text-align: center;
+}
+.first_feedback input {
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: #00758e;
+}
+.fdb{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.button_feedback{
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid ;
+    font-size: 15px;
+    color: #00758e;
+    font-weight: 700;
+}
+.button_feedback:hover{
+  width: 200px;
+    height: 35px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 15px;
+    background-color: #00758e;
+    font-weight: 700;
+    color: white;
+  
+}
+
+

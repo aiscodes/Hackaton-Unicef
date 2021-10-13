@@ -1,0 +1,47 @@
+.girlImg {
+    width: 40vw;
+    height: 70vh;
+    border-radius: 50%;
+    margin-top: 10%;
+  }
+
+.modal_container{
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+
+}       
+.modal_div{
+    padding: 20px;
+    width: 45%;
+    height: 60vh;
+    background: linear-gradient(241.57deg, #321D6A -31.15%, #39BFC6 108.29%);
+    margin-top: 5%;
+    border-radius: 40px;
+    color: white;
+}  
+
+.modal_div a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.modal_div p{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}       
+
+
+
+.modal_button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}

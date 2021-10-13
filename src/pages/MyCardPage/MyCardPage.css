@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+
+.mycard_container{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+}
+.login_first{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 30%;
+    display: block;
+    margin-top: 2%;
+    font-size: 18px;
+    color: #00758e;
+    font-family: 'Lato', sans-serif;
+}
+
+.login_input{
+    border: none;
+    color: white;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #5da4b4;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+    
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    margin: 5% 33%;
+    border-radius: 30px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.card_line{
+    width: 100% !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    background-color: #00758e !important;
+    color: white !important;
+    margin-top: 4%;
+}
+.card_line2{
+    width: 100% !important;
+    color: white !important;
+    color:  #00758e !important;
+  
+}
+.card_line2 p{
+    text-align: center;
+}
+.card_line3{
+    width: 40% !important;
+    margin-left: 30% !important;
+    color: white !important;
+    margin-top: 4%;
+}

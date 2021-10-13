@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+.accardion{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.accardion h1{
+    font-size: 25px;
+    color: #00758e;
+    font-weight: 800;
+}
+.accardion h5{
+    font-size: 15px;
+    color: #00758e; 
+    font-weight: 600;
+}
+

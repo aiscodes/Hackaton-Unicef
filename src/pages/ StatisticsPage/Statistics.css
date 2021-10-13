@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=Ubuntu&display=swap');
+.mainPageTxt {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: 50px;
+  line-height: 58px;
+  color: #00758e;
+  background-color: transparent;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.mainContent {
+  width: 100wh;
+}
